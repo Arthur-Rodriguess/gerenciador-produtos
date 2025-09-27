@@ -1,0 +1,9 @@
+{
+    "name": "arthur/project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Project\\": "src/Model/"
+        }
+    }
+}
