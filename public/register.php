@@ -1,7 +1,7 @@
 <!-- require do cabeçalho que é igual para todas as páginas -->
 <?php require 'includes/header.php';?>
 
-    <main class="main-content">
+    <main class="main-content aside-hidden" id="main-content">
         <!-- outro require porém de uma sidebar -->
         <?php require 'includes/aside.php';?>
         <div class="main-container">
@@ -25,6 +25,7 @@
         </div>
     </main>
 
+    <script src="js/global.js"></script>
     <script src="js/register.js"></script>
 </body>
 </html>

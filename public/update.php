@@ -11,12 +11,13 @@ if (!$product) die('Produto não encontrado.');
 
 <?php require 'includes/header.php';?>
     
-    <main class="main-content">
+    <main class="main-content aside-hidden" id="main-content">
         <?php require 'includes/aside.php';?>
         <div class="main-container">
             <h1 class="main-content__title">Atualizar Produto</h1>
             <section class="form-container">
                 <form method="post" autocomplete="off" class="form">
+                    <p style="color: gray; font-size: 14px; text-align: center;">*altere uma mais características</p>
                     <input type="hidden" name="id" value="<?=htmlspecialchars($product->getId())?>">
                     <label for="name">Nome</label>
                     <input type="text" name="name" id="name" placeholder="Digite o novo nome do produto" class="form__input">
@@ -33,4 +34,5 @@ if (!$product) die('Produto não encontrado.');
         </div>
     </main>
 
+<script src="js/global.js"></script>
 <script src="js/update.js"></script>

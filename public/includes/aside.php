@@ -1,5 +1,5 @@
 <aside class="sidebar">
-    <nav class="sidebar__links">
+    <nav class="sidebar__links" id="sidebar">
         <a href="/register.php" class="sidebar__link">Registrar Produto</a>
         <a href="/read.php" class="sidebar__link">Ver Produtos</a>
         <a href="/api/create_pdf.php" class="sidebar__link">Baixar PDF</a>

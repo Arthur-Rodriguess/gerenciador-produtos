@@ -8,5 +8,6 @@
 </head>
 <body>
     <header class="content-header">
+        <img src="img/menu-icon.png" width="40px" height="30px" class="content-header__menu hide" id="menu-icon">
         <h1 class="content-header__title">Gestão de Produtos</h1>
     </header>

@@ -9,7 +9,7 @@ $products = $repository->findAll();
 
 <?php require 'includes/header.php'; ?>
 
-<main class="main-content">
+<main class="main-content aside-hidden" id="main-content">
     <?php require 'includes/aside.php'; ?>
     <section class="main-container">
         <h1 class="main-content__title">Ver Produtos</h1>
@@ -55,4 +55,5 @@ $products = $repository->findAll();
     </div>
 </div>
 
+<script src="js/global.js"></script>
 <script src="js/read.js"></script>
