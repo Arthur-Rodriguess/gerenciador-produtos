@@ -67,6 +67,10 @@ body {
     transition: background-color 0.2s;
 }
 
+.sidebar__link.active {
+    background-color: #2274a5;
+}
+
 .sidebar__link:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
